@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>LABORATORIO JAVASCRIP</title>
+    <link rel="stylesheet" href="proyecto.css">
+</head>
+<body>
+    <form>
+        <h2>LABORATORIO JAVASCRIPT</h2>
+        <label for="first_name">Primer Nombre : </label>
+        <input type="text" id="first_name" name="first_name">
+        
+        <label for="second_name">Segundo Nombre : </label>
+        <input type="text" id="second_name" name="second_name">
+        
+        <label for="first_A">Primer Apellido : </label>
+        <input type="text" id="first_A" name="first_A">
+        
+        <label for="second_A">Segundo Apellido : </label>
+        <input type="text" id="second_A" name="second_A">
+        
+        <label for="dni">DNI : </label>
+        <input type="number" id="dni" name="dni">
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento: </label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+
+        <button type="button" onclick="mostrarnombrecompleto(); mostrarultimodigito(); mostraredad();">PROCESAR</button>
+        
+        <label>Nombre Completo</label>
+        <input type="text" id="resultadonombre" readonly>
+        <label>Ultimo Numero del DNI</label>
+        <input type="text" id="resultadodni" readonly>
+        <label>Edad</label>
+        <input type="text" id="resultadoedad" readonly>
+        
+    </form>
+    <script src="proyecto.js"></script>
+</body>
+</html>
